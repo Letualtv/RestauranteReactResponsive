@@ -20,3 +20,7 @@ const App = () => (
 );
 
 export default App;
+
+
+
+/** Hecho por Antonio Pulido (https://apulido.onrender.com/) siguiendo los pasos de JavaScript Mastery  */
