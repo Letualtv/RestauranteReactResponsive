@@ -1,53 +1,83 @@
-# Getting Started with Create React App
+# 🍽️ Restaurante — Landing Page React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Sitio web responsive de un restaurante de alta cocina, desarrollado con **React 18**. Incluye secciones de menú especial, galería, chef, premios y contacto.
 
-## Available Scripts
+🔗 **Demo en vivo:** [https://Letualtv.github.io/RestauranteReactResponsive](https://Letualtv.github.io/RestauranteReactResponsive)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## ✨ Secciones
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Navbar** — Navegación con links y menú responsive
+- **Header** — Hero section con llamada a la acción
+- **About Us** — Historia del restaurante
+- **Special Menu** — Carta de cócteles y platos
+- **Chef** — Presentación del chef
+- **Intro** — Vídeo introductorio
+- **Laurels** — Premios y reconocimientos
+- **Gallery** — Galería de fotos
+- **Find Us** — Horarios y ubicación
+- **Footer** — Newsletter y redes sociales
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ Tecnologías
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [React 18](https://react.dev/)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- CSS3 (variables, flexbox, media queries)
+- [Create React App](https://create-react-app.dev/)
+- [gh-pages](https://github.com/tschaub/gh-pages) — despliegue en GitHub Pages
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Instalación y uso
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+# Clonar el repositorio
+git clone https://github.com/Letualtv/RestauranteReactResponsive.git
+cd RestauranteReactResponsive
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Instalar dependencias
+npm install
 
-### `npm run eject`
+# Iniciar en modo desarrollo
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📦 Despliegue en GitHub Pages
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm run deploy
+```
 
-## Learn More
+Esto compila el proyecto y publica el resultado en la rama `gh-pages` automáticamente.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📁 Estructura del proyecto
 
-### Code Splitting
+```
+src/
+├── assets/          # Imágenes y recursos estáticos
+├── components/      # Componentes reutilizables (Navbar, Footer, etc.)
+├── container/       # Secciones principales de la página
+├── constants/       # Datos e imágenes centralizados
+├── App.js
+└── index.js
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
+
+## 👤 Autor
+
+**Antonio Pulido** — [antoniopulido.dev](https://antoniopulido.dev)
+
+Proyecto realizado siguiendo los pasos de [JavaScript Mastery](https://www.youtube.com/@javascriptmastery).
 
 ### Analyzing the Bundle Size
 

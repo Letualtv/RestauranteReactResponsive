@@ -23,4 +23,4 @@ export default App;
 
 
 
-/** Hecho por Antonio Pulido (https://apulido.onrender.com/) siguiendo los pasos de JavaScript Mastery  */
+/** Hecho por Antonio Pulido (https://antoniopulido.dev) siguiendo los pasos de JavaScript Mastery  */
